@@ -1,2 +1,1 @@
-# LSA
-LSAAAA
+# 猜歌遊戲 README
