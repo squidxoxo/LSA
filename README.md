@@ -5,9 +5,12 @@
 
 ## 事前準備
 1. [Download Python](https://www.python.org/downloads/)
-2. 確認你的`pip`有成功安裝
+2. 確認你的`python`及`pip`有成功安裝
 ```shell=
+python --version
+# 版本須為3.x.x
 pip --version
+# 版本須為3.x.x
 ```
 3. 安裝
 ```shell=
