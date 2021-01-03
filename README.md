@@ -1,6 +1,14 @@
-# 猜歌遊戲 README
+# 猜歌遊戲 in LSA
 
 [![hackmd-github-sync-badge](https://hackmd.io/ktRec9XuQniTA3w9MsG5xw/badge)](https://hackmd.io/ktRec9XuQniTA3w9MsG5xw)
+
+## 動機發想
+就因為喜歡玩猜歌遊戲，可是每次都要有一個人出題，所以乾脆讓樹梅派來幫我們出題好了
+
+## 所需設備
+- Raspbarry Pi 3 or 4
+- USB to TTL
+- 一台能動的電腦
 
 
 ## 事前準備
@@ -10,8 +18,9 @@
 python --version
 # 版本須為3.x.x
 pip --version
-# 版本須為3.x.x
+# 須為 from python3.x.x
 ```
+
 3. 安裝
 ```shell=
 pip install telepot
@@ -20,9 +29,17 @@ pip install re2
 pip install vlc
 pip install python3-vlc
 pip install pafy
+pip install youtube-dl
 pip install urllib
 pip install python3-urllib
 ```
+
+4. 安裝 Telegram Bot
+    - 加 @BotFather 為好友
+    - `/newbot`為你的機器人取個名字
+    - 記住`TOKEN`，然後就可以開始你的 Telegram Bot了
+    ![](https://i.imgur.com/FOszkwp.png)
+
 
 ## 遊戲玩法
 1. 將 telegram bot 加入群組
@@ -35,8 +52,8 @@ pip install python3-urllib
 
 |關卡| 1| 2| 3| 4|5|
 | -------- | -------- | -------- |--------|---------|-------|
-| 關卡的秒數 | 60 | 30 |   20 |  10 | 5|
-| 關卡的計分方式  | 5 | 10 |  15|   20|  25|
+| 關卡秒數 | 60 | 40 |   30 |  20 | 10|
+| 關卡得分  | 5 | 10 |  15|   20|  25|
 | 使用提示後的得分 |  3 |  6 |  9| 12 |15| 
 
 ## 遊戲控制
