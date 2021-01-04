@@ -74,7 +74,7 @@ pip install youtube-dl
 ### 個人玩法
 1. 加 @GuessSongInLSA 好友
 2. `/join` 加入遊戲
-3. ==optional==`/rule` 顯示遊戲規則
+3. ==optional== `/rule` 顯示遊戲規則
 4. `/music 歌手` 設定遊戲範圍並開始遊戲
 5. 遊戲共有 5 關，每關 3 題，並依據關卡難度提高得分
 6. 若題目太難無法答對，可使用`/prompt`顯示提示，**但使用提示會降低得分**
