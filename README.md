@@ -47,6 +47,7 @@ pip install youtube-dl
 
 ## 遊戲玩法
 1. 將 telegram bot 加入群組
+ ![](https://i.imgur.com/6Kgk7sP.png)
 2. 成員選擇`/join`加入遊戲
 3. 選擇`/start`開始遊戲並顯示遊戲規則
 4. 輸入 `/music` + **歌手名** 並開始遊戲
