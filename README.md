@@ -24,7 +24,6 @@ pip --version
 3. 安裝
 ```shell=
 pip install telepot
-pip install python3-telepot
 pip install re2
 pip install vlc
 pip install python-vlc
@@ -33,6 +32,7 @@ pip install youtube-dl
 pip install urllib
 pip install python3-urllib
 pip install speechrecognition
+pip install youtube-dl
 # 窗戶作業系統需要另外在網路上搜尋 vlc 下載
 # 若電腦內同時有 python2 及 python3
 # 上述所有 pip 都要改成 pip3
