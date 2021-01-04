@@ -32,7 +32,6 @@ pip install pafy
 pip install youtube-dl
 pip install urllib
 pip install python3-urllib
-pip install youtube-dl
 # 窗戶作業系統需要另外在網路上搜尋 vlc 下載
 # 若電腦內同時有 python2 及 python3
 # 上述所有 pip 都要改成 pip3
@@ -47,8 +46,8 @@ pip install youtube-dl
 
 ## 遊戲玩法
 ### 遊戲流程
+![](https://i.imgur.com/GO0LXcU.png)
 
-![](https://i.imgur.com/CJMQJ8J.png)
 ### 群組玩法
 1. 將 telegram bot 加入群組
  ![](https://i.imgur.com/6Kgk7sP.png)
@@ -56,7 +55,7 @@ pip install youtube-dl
 3. ==optional== 選擇`/rule`顯示遊戲規則
 4. 輸入 `/music` + **歌手名** 並開始遊戲
 5. 遊戲共有 5 關，每關 3 題，並依據關卡難度提高得分
-6. 若該題無人回答正確，則可使用提示`/promt`，**但使用提示會降低得分**(請參照下表)
+6. 若該題無人回答正確，且所有人都回答過至少一次的情況下，超過半數人選擇`/prompt`，則可使用提示，**但使用提示會降低得分**(請參照下表)
 7. 若使用提示後依舊無法答對，可`/pass`此題，並公布正確答案(答案錯了就是你衰到)
 8. 每關結束，列出得分**前三高**的分數及 telegram ID
 9. 遊戲結束，列出所有人的得分及 telegram ID
@@ -77,7 +76,7 @@ pip install youtube-dl
 3. ==optional== `/rule` 顯示遊戲規則
 4. `/music 歌手` 設定遊戲範圍並開始遊戲
 5. 遊戲共有 5 關，每關 3 題，並依據關卡難度提高得分
-6. 若題目太難無法答對，可使用`/prompt`顯示提示，**但使用提示會降低得分**
+6. 若題目太難無法答對，且回答過至少一次，可使用`/prompt`顯示提示，**但使用提示會降低得分**
 7. 若使用提示後依舊無法答對，可`/pass`此題，並顯示正確答案(答案錯了就算你衰到)
 8. 遊戲結束，列出得分
 - ==optional==
@@ -119,3 +118,15 @@ pip install youtube-dl
 - https://blog.sean.taipei/2017/05/telegram-bot
 - https://letswrite.tw/telegram-bot-commands/
 - https://oscarada87.github.io/2019/05/25/%E7%94%A8-Python-%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84-Telegram-Bot/
+
+## 工作分配
+- 葉衣玲
+    - 投影片製作
+- 程芮瑄
+    - Telegram Bot 功能製作
+- 詹佳穎
+    - Telegram Bot 功能製作
+- 陳又瑀
+    - 文件製作
+
+## 特別感謝愛心TA漢偉
