@@ -9,6 +9,7 @@
 - Raspbarry Pi 3 or 4
 - USB to TTL
 - 一台能動的電腦
+- 音響
 
 
 ## 事前準備
@@ -31,7 +32,6 @@ pip install pafy
 pip install youtube-dl
 pip install urllib
 pip install python3-urllib
-pip install speechrecognition
 pip install youtube-dl
 # 窗戶作業系統需要另外在網路上搜尋 vlc 下載
 # 若電腦內同時有 python2 及 python3
@@ -46,14 +46,19 @@ pip install youtube-dl
 
 
 ## 遊戲玩法
+### 遊戲流程
+
+![](https://i.imgur.com/CJMQJ8J.png)
+### 群組玩法
 1. 將 telegram bot 加入群組
  ![](https://i.imgur.com/6Kgk7sP.png)
 2. 成員選擇`/join`加入遊戲
-3. 選擇`/start`開始遊戲並顯示遊戲規則
+3. 選擇`/rule`顯示遊戲規則
 4. 輸入 `/music` + **歌手名** 並開始遊戲
 5. 遊戲共有 5 關，每關 3 題，並依據關卡難度提高得分
 6. 若該題無人回答正確，則可使用提示`/promt`，**但使用提示會降低得分**
-7. 遊戲全部結束，列出得分**前三高**的分數
+7. 若使用提示後依舊無法答對，可`/pass`此題
+8. 遊戲全部結束，列出得分**前三高**的分數
 
 |關卡| 1| 2| 3| 4|5|
 | -------- | -------- | -------- |--------|---------|-------|
@@ -61,15 +66,43 @@ pip install youtube-dl
 | 關卡得分  | 5 | 10 |  15|   20|  25|
 | 使用提示後的得分 |  3 |  6 |  9| 12 |15| 
 
+### 個人玩法
+1. 加 @GuessSongInLSA 好友
+2. `/join` 加入遊戲
+3. `/rule` 顯示遊戲規則
+4. `/music 歌手` 設定遊戲範圍並開始遊戲
+5. 遊戲共有 5 關，每關 3 題，並依據關卡難度提高得分
+6. 若題目太難無法答對，可使用`/prompt`顯示提示，**但使用提示會降低得分**
+7. 若使用提示後依舊無法答對，可`/pass`此題
+8. 遊戲結束，列出得分
+
+|關卡| 1| 2| 3| 4|5|
+| -------- | -------- | -------- |--------|---------|-------|
+| 關卡秒數 | 60 | 40 |   30 |  20 | 10|
+| 關卡得分  | 5 | 10 |  15|   20|  25|
+| 使用提示後的得分 |  3 |  6 |  9| 12 |15|
+
 ## 遊戲控制
 - `/join` 加入遊戲
-- `/start` 開始遊戲
+- `/rule` 開始遊戲
 - `/music 歌手` 設定遊戲範圍
 - `/replay` 重新播放題目
 - `/exit` 離開遊戲
 - `/pass` 跳過此題
 - `/prompt` 顯示提示
 - `/rank` 列出排名前三高
+
+## 困難 & 克服
+- youtube 惱人的廣告
+    - 換另一種方式就沒這個問題了
+- VLC 安裝
+    - 除了 `pip install vlc` 之外，還要`pip install python-vlc`
+    - 窗戶還要下載 VLC 才可以正常執行
+
+
+## 未來展望
+- 希望歌曲語種可以更多元，涵蓋英文、日文等其他語言的歌
+- 增加關卡變化ex: 變速
 
 ## 參考資料
 - https://hackmd.io/@truckski/HkgaMUc24?type=view
