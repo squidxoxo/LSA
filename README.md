@@ -35,7 +35,7 @@ pip install python3-urllib
 pip install speechrecognition
 # 窗戶作業系統需要另外在網路上搜尋 vlc 下載
 # 若電腦內同時有 python2 及 python3
-# 上述所有 pip 都要改完 pip3
+# 上述所有 pip 都要改成 pip3
 ```
 
 4. 安裝 Telegram Bot
@@ -69,3 +69,9 @@ pip install speechrecognition
 - `/pass` 跳過此題
 - `/prompt` 顯示提示
 - `/rank` 列出排名前三高
+
+## 參考資料
+- https://hackmd.io/@truckski/HkgaMUc24?type=view
+- https://blog.sean.taipei/2017/05/telegram-bot
+- https://letswrite.tw/telegram-bot-commands/
+- https://oscarada87.github.io/2019/05/25/%E7%94%A8-Python-%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84-Telegram-Bot/
